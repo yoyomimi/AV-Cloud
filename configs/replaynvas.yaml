@@ -1,0 +1,39 @@
+output_dir: 'avcloud_replay_nvas'
+device: 'cuda'
+dist_backend: 'nccl'
+log_dir: 'logs/'
+result_dir: 'results/'
+seed: 42
+workers: 4
+dataset:
+  name: 'replay_nvas'
+  data_root: 'data/avcloud_data/ReplayNVAS'
+  sr: 16000
+  img_num_per_gpu: 6
+  train:
+    drop_last: True
+    shuffle: True
+  test:
+    drop_last: False
+    shuffle: False
+model:
+  resume_path: ''
+  file: 'avcloud_dir'
+  model_type: 'full' # full, sim, sim-sh
+  render_type: 'simple'
+  joint_emb_dim: 256
+train:
+  file: 'AVDirTrainer'
+  criterion_file: 'Criterion'
+  resume: True
+  duration: 5
+  ddim_steps: 200
+  lr: 5e-4
+  gamma: 0.1 #exponentiallr scheduler
+  decay_epochs: 100 #exponentiallr scheduler
+  max_epoch: 100
+  print_freq: 10
+  save_every_checkpoint: True
+  save_interval: 1
+  valiter_interval: 50
+  val_when_train: True
