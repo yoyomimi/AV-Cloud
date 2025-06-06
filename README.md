@@ -15,6 +15,7 @@ AV-Cloud is an audio rendering framework synchronous with the visual perspective
 ```bash
 pip install -r requirements.txt
 ```
+We use CUDA 11.4 for the experiments.
 
 ## Data and Pretrained Weights
 Download our released data from [avcloud_data_release](https://www.dropbox.com/scl/fo/uq1osi0q2tmpgmspfm26x/ALkNLnLaY7756y9FHYRYjEs?rlkey=7cux8hlu704n325fxplmcltlx&st=zm0uhw6o&dl=0), unzip the data and organize them as the following structures.
