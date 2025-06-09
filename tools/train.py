@@ -1,3 +1,12 @@
+"""
+Code of "AV-Cloud: Spatial Audio Rendering Through Audio-Visual Cloud Splatting" 
+
+Copyright (c) 2023-2024 University of Washington. 
+
+Developed in UW NeuroAI Lab by Mingfei Chen (lasiafly@uw.edu).
+"""
+
+
 from __future__ import division, print_function, with_statement
 
 import argparse

@@ -1,8 +1,7 @@
-# Copyright (c) Facebook, Inc. and its affiliates.
-# All rights reserved.
+# We modified the Criterion code from https://github.com/facebookresearch/novel-view-acoustic-synthesis/blob/main/nvas/loss.py
 
 # This source code is licensed under the license found in the
-# LICENSE file in the root directory of this source tree.
+# LICENSE-3RD-PARTY-NVAS file in the root directory of this source tree.
 
 from typing import Any
 

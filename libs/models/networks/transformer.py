@@ -1,3 +1,9 @@
+
+# We modified the Criterion code from https://github.com/facebookresearch/detr/blob/main/models/transformer.py
+
+# This source code is licensed under Copyright 2020 - present, Facebook, Inc (https://github.com/facebookresearch/detr/blob/main/LICENSE)
+
+
 import copy
 import math
 from typing import List, Optional

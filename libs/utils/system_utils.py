@@ -4,10 +4,11 @@
 # All rights reserved.
 #
 # This software is free for non-commercial, research and evaluation use 
-# under the terms of the LICENSE.md file.
+# under the terms of the LICENSE-3RD-PARTY-Gaussian-Splatting file.
 #
 # For inquiries contact  george.drettakis@inria.fr
 #
+
 
 import os
 from errno import EEXIST

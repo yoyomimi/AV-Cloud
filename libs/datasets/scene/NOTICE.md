@@ -1,0 +1,1 @@
+In "dataset_readers.py", we modified the "readColmapSceneInfo" function to adapt to our audio-visual 3d scene loading.

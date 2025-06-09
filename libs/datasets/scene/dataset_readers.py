@@ -31,7 +31,7 @@ from libs.datasets.scene.colmap_loader import (qvec2rotmat,
                                                read_points3D_binary,
                                                read_points3D_text)
 from libs.datasets.scene.gaussian_model import BasicPointCloud
-from libs.datasets.scene.utils import fetchPly
+from libs.datasets.utils import fetchPly
 from libs.utils.graphics_utils import focal2fov, fov2focal, getWorld2View2
 from libs.utils.sh_utils import SH2RGB
 

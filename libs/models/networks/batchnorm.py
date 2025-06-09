@@ -1,3 +1,9 @@
+
+# We modified the Criterion code from https://github.com/vacancy/Synchronized-BatchNorm-PyTorch/blob/master/sync_batchnorm/batchnorm.py
+
+# This source code is licensed under Copyright (c) 2018 Jiayuan MAO, Inc (https://github.com/vacancy/Synchronized-BatchNorm-PyTorch/blob/master/LICENSE)
+
+
 import collections
 import contextlib
 

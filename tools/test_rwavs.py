@@ -1,13 +1,12 @@
-#
-# Copyright (C) 2025
-# NeuroAI research group, https://faculty.washington.edu/shlizee/
-# All rights reserved.
-#
-# This software is free for non-commercial, research and evaluation use 
-# under the terms of the LICENSE.md file.
-#
-# For inquiries contact lasiafly@uw.edu
-#
+"""
+Code of "AV-Cloud: Spatial Audio Rendering Through Audio-Visual Cloud Splatting" 
+
+Copyright (c) 2023-2024 University of Washington. 
+
+Developed in UW NeuroAI Lab by Mingfei Chen (lasiafly@uw.edu).
+"""
+
+
 
 from __future__ import division, print_function, with_statement
 
@@ -28,7 +27,7 @@ from tqdm import tqdm
 
 from configs import cfg, update_config
 from libs.evaluators.gen_eval import Evaluator
-from libs.models.networks.visual_net import VisualNet
+from libs.models.vigas.visual_net import VisualNet
 from libs.utils import misc
 
 

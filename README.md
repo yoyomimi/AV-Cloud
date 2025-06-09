@@ -91,10 +91,11 @@ python tools/av_metrics.py --log-dir avcloud_[full/sh/simple-sh]_rwavs
 ```
 
 ## License
-This software is free for non-commercial, research and evaluation use under the terms of the LICENSE.md file.
+This software is free for non-commercial, research and evaluation use under the terms of the LICENSE.md file. Third-party licenses are listed in the 3RD-party license files (named LICENSE-3RD-PARTY-XX), and any modifications—along with the original source-code license—are noted in the headers of the corresponding files.
+
 
 ## Acknowledgment
-We use datasets and part of the codes from [ViGAS](https://github.com/facebookresearch/novel-view-acoustic-synthesis) and [AVNeRF](https://github.com/liangsusan-git/AV-NeRF). We thank the authors for sharing their code and datasets. If you use our codes, please also consider citing their nice works.
+We use datasets and part of the codes from [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting), [ViGAS](https://github.com/facebookresearch/novel-view-acoustic-synthesis), [AVNeRF](https://github.com/liangsusan-git/AV-NeRF) and [detr](https://github.com/facebookresearch/detr). We thank the authors for sharing their code and datasets. If you use our codes, please also consider citing their nice works.
 
 ## Contact
 If you have any comments or questions, feel free to contact Mingfei Chen (lasiafly@uw.edu)
