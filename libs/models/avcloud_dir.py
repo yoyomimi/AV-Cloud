@@ -150,6 +150,7 @@ class AVCloudDir(nn.Module):
         ori = ori / ori.norm(dim=-1, keepdim=True)
         sound_source_vec = torch.cat([dir_pp / self.max_norm, ori.unsqueeze(1).repeat(1, N_points, 1)], -1)
         source_emb = self.vec_proj1(self.vec_embedder(sound_source_vec.reshape(-1, 3))).reshape(B, N_points, -1) # B, N, C
+        ori_emb = ori_emb + source_emb
 
         if self.model_type == "simple-sh":
             # Simple version of Visual-to-Audio Splatting Transformer
